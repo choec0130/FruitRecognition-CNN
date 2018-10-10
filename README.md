@@ -1,2 +1,1 @@
-"# FruitRecognition-CNN" 
-ECHO is on.
+CNN with TensorFlow.
