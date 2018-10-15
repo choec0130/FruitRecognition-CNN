@@ -30,7 +30,7 @@ def get_label(label, one_hot=False):
 
 def get_training_data():
     try:
-        training_file = h5.File(TRAINING_DIR+'fruit_data.hdf5', 'r')
+        training_file = h5.File(train_path+'fruit_data.hdf5', 'r')
         return training_file["Training"]["images"], training_file["Training"]["labels"]
     except:
         print("Constructing training data from scratch")
